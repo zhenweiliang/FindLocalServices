@@ -2,121 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0997a361-183c-4842-abec-b8c256b91880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/JEM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/THE NIBBLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ad6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/restaurant9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/swipe1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/swipe2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/swipe3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CommonHead/CommonHead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CommonHead/CommonHead.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeHeader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomeHeader/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadMore/LoadMore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoadMore/Loadmore.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchHead/SearchHead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchHead/SearchHead.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchInput/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/swiperDots/swiperDots.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/swiperDots/swiperDots.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/star/star.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/star/star.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/category/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/category/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/CityList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/CityList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/store/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/store/constant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/city/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/DetailComment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/DetailComment.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/DetailInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/DetailInfo.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/detail/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/Advertise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/Advertise.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/Commend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/Commend.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/CommendList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/CommendList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/store/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/store/constant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/LoginPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/LoginPanel.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/store/actionCreator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/store/constant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/login/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/SearchList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/SearchList.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockServer/mysql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockServer/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mockServer/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/css/ReactPullLoad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/css/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/localservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/localservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mockServer/ModelExport.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,19 +53,19 @@
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2018.1.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactProject\localservices\src\mockServer" />
+      <recent name="D:\ReactProject\localservices\src\containers\detail" />
+      <recent name="D:\ReactProject\localservices\src\components\CommonHead" />
+      <recent name="D:\ReactProject\localservices\src\common" />
+      <recent name="D:\ReactProject\localservices\src\store" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ReactProject\localservices\src\containers\login" />
       <recent name="D:\ReactProject\localservices\src\statics\css" />
       <recent name="D:\ReactProject\localservices\src\containers\city\store" />
       <recent name="D:\ReactProject\localservices\public\images" />
       <recent name="D:\ReactProject\localservices\src\statics\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ReactProject\localservices\src\containers\detail" />
-      <recent name="D:\ReactProject\localservices\src\components\CommonHead" />
-      <recent name="D:\ReactProject\localservices\src\common" />
-      <recent name="D:\ReactProject\localservices\src\store" />
-      <recent name="D:\ReactProject\localservices" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -221,8 +109,17 @@
       <workItem from="1586991285884" duration="17266000" />
       <workItem from="1587089331312" duration="2395000" />
       <workItem from="1587110827721" duration="23509000" />
-      <workItem from="1587274538216" duration="1440000" />
+      <workItem from="1587274538216" duration="2104000" />
+      <workItem from="1587278011139" duration="385000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished container:city,detail,home,login,search">
+      <created>1587277400551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587277400551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,12 +139,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Finished container:city,detail,home,login,search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished container:city,detail,home,login,search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586590205213">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="281" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.720@0.0.1366.720" timestamp="1586590205213" />
+    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1587277397708">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1587277397708" />
     <state x="355" y="0" key="FileChooserDialogImpl" timestamp="1587181816931">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -264,6 +167,10 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="746" height="596" key="SwitcherDM/0.0.1366.720@0.0.1366.720" timestamp="1587220050741" />
+    <state x="74" y="0" key="Vcs.Push.Dialog.v2" timestamp="1587277421032">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="74" y="0" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1587277421032" />
     <state x="388" y="235" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587181913976">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
