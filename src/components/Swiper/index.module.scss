@@ -1,0 +1,32 @@
+.swiper {
+  padding: 18px 0;
+  position: relative;
+  background-color: #fff;
+
+  .swiperPage {
+    height: 138px;
+
+    .swipeList {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        text-align: center;
+        width: 20%;
+
+        i {
+          font-size: 36px;
+          color: #fd001f;
+        }
+
+        p {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
+
+
+
+

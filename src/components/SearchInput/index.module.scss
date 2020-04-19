@@ -1,0 +1,21 @@
+.headerSearch {
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 25px;
+  margin-left: 5px;
+  display: flex;
+
+
+  i {
+    margin: 2px 3px;
+    color: #333;
+
+  }
+
+  input {
+    border: none;
+    outline-style: none;
+    color: gray;
+
+  }
+}

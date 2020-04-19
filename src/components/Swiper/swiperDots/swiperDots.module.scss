@@ -1,0 +1,18 @@
+.swiperSwitch {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  color: transparent;
+
+  li {
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin: 0 2px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+  }
+  .selected {
+    background-color: #fd001f !important;
+  }
+}

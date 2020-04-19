@@ -1,0 +1,38 @@
+.wrapper {
+
+  background-color: #fff;
+  padding: 8px 12px;
+
+  .detailShow {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+
+    .detailImg {
+      flex: .6;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .detailInfo {
+      padding-left: 8px;
+      flex: 1;
+
+      h1 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .detailStar {
+        padding: 5px 0;
+
+        .price {
+          float: right;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,44 @@
+.wrapper {
+
+  height: 48px;
+  background-color: #fd001f;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: center;
+  padding-right: 12px;
+
+  .headerBack {
+    flex: .3;
+
+    i {
+      font-size: 25px;
+      font-weight: 900;
+      margin: 12px;
+    }
+  }
+
+}
+
+.headerSearch {
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 25px;
+  margin-left: 5px;
+  display: flex;
+
+
+  i {
+    margin: 2px 3px;
+    color: #333;
+
+  }
+
+  input {
+    border: none;
+    outline-style: none;
+    color: gray;
+
+  }
+}
+

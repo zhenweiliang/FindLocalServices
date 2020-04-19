@@ -1,0 +1,43 @@
+.wrapper {
+  height: 100%;
+  padding: 175px 45px;
+  background-color: #f5f5f5;
+}
+
+
+.loginUsername, .loginCheckCode {
+  background-color: #fff;
+  margin-bottom: 12px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 8px;
+  border-radius: 5px;
+  color: #fd001f;
+
+  input {
+    border: none;
+  }
+
+  .checkCode {
+    width: 50%;
+  }
+
+  .sendCheckCode {
+    float: right;
+  }
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.loginButton {
+  border-radius: 5px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #fd001f;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
