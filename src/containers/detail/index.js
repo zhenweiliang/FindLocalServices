@@ -12,8 +12,8 @@ class Detail extends React.Component {
 
     return (<div className={Style.wrapper}>
       <CommonHead title={'Restaurant Detail'}/>
-      <DetailInfo id={id} />
-      <DetailComment id={id}  />
+      <DetailInfo id={id}/>
+      <DetailComment id={id}/>
 
     </div>)
   }

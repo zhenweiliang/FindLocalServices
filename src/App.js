@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import './App.scss'
 import { Provider } from 'react-redux'
 import store from './store/store'
 import Home from './containers/home'
@@ -10,7 +9,7 @@ import Search from './containers/search'
 import Login from './containers/login'
 import Category from './containers/category'
 
-
+import './App.scss'
 import './statics/css/icon.css'
 import './statics/css/normalize.css'
 
@@ -22,7 +21,7 @@ function App () {
             <Route path='/' exact component={Home}/>
             <Route path='/city' exact component={City}/>
             <Route path='/detail/:id' exact component={Detail}/>
-            <Route path='/search/:category/:keyword?' exact component={Search}/>
+            <Route path='/search/:category/:keyword?'  component={Search}/>
             <Route path='/login/:router?' component={Login}/>
             <Route path='/category/:id' component={Category}/>
 

@@ -10,8 +10,7 @@ class Login extends React.Component {
 
   render () {
     const { loginStatus } = this.props
-    return (<div>{this.checkLogin(loginStatus)}</div>
-    )
+    return (<div>{this.checkLogin(loginStatus)}</div>)
   }
 
   checkLogin = (loginStatus) => {

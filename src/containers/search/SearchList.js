@@ -11,8 +11,8 @@ export default class SearchList extends React.Component{
   }
 
   componentDidMount () {
-   // query the data, based on this.props.category and this.props.data
-    // RESTful api: '/search/category/keyword' by get method
+    // Use Axios.post('/search',{category:this.props.category,keyword:this.props.keyword}
+    //to get the query data when api: search is ready.
 
     Axios.post('/commend')
       .then((data) => {

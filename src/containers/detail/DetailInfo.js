@@ -22,11 +22,10 @@ class DetailInfo extends React.Component {
       .then((data) => {
         const detail = data.data[0]
         if (detail == null) {
-          alert('we got a server problem')
+          console.log('we got a server problem mate')
         } else {
           this.setState(detail)
         }
-
       })
       .catch((err) => {throw err })
   }

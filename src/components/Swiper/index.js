@@ -27,6 +27,7 @@ export default class Swiper extends Component {
       <div className={Style.swiper}>
         <ReactSwipe className="carousel"
                     swipeOptions={swiperOption}>
+
           {swipeImages.map((item, index) =>
             (<div
               className={Style.swiperPage} key={index}>
@@ -35,6 +36,7 @@ export default class Swiper extends Component {
               </Link>
             </div>),
           )}
+
         </ReactSwipe>
 
         <SwiperDots index={this.state.index} qty={swipeImages.length}/>

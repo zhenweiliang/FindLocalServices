@@ -18,7 +18,7 @@ router.post('/swiper', function (req, res) {
   })
 })
 
-router.post('/ads', function (req, res) {
+router.post('/Categories', function (req, res) {
   const sql = 'select * from ads'
   mysql.query(sql, (err, result) => {
     if (err) {throw err}

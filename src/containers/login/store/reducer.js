@@ -1,8 +1,8 @@
 import * as C from './constant'
 
 const initState = {
-  loginStatus:false,
-  errMsg:''
+  loginStatus: false,
+  errMsg: '',
 
 }
 

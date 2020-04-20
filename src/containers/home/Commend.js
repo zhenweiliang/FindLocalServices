@@ -13,14 +13,10 @@ export default class Commend extends React.PureComponent {
 
   }
 
-  // componentDidUpdate (prevProps, prevState, snapshot) {
-  //   this.state.list = this.props.commendData
-  // }
-
   render () {
     const { page } = this.state
     this.maxPage = Math.ceil((this.props.commendData.length - 4) / 3)
-    //init display 4 items, then every pull add 2
+    //initially display 4 items, then every click add 3 , can be changed below
     const renderList = [...this.props.commendData].splice(0, 4 + page * 3)
 
     //todo 下拉刷新
@@ -42,9 +38,7 @@ export default class Commend extends React.PureComponent {
       500,
     )
     const { page } = this.state
-    // this.maxPage = Math.ceil((this.props.commendData.length - 4) / 3)
     if (page < this.maxPage) {this.setState({ page: page + 1 })}
-
   }
 }
 

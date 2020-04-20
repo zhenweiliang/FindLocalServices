@@ -13,11 +13,11 @@ export const getSwiperData = () => {
   }
 }
 
-export const getAdsData = () => {
+export const getCategoriesData = () => {
   return (dispatch) => {
-    Axios.post('/ads')
+    Axios.post('/Categories')
       .then((data) => {
-        dispatch({ type: C.ADS_DATA, payload: data.data })
+        dispatch({ type: C.CATEGORIES_DATA, payload: data.data })
       })
       .catch((err) => {throw err })
   }

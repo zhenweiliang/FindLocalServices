@@ -13,10 +13,11 @@ export default class HomeHeader extends React.Component {
           {this.props.cityName}
             <i className="icon-angle-down"></i>
           </span>
-
         </Link>
       </div>
+
       <SearchInput enterHandle={this.props.enterHandle}/>
+
       <div className={Style.headerUser}>
         <Link to="/login">
           <i className="icon-user"></i>

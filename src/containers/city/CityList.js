@@ -14,7 +14,6 @@ export default class CityList extends React.Component {
   componentDidMount () {
     Axios.post('/city')
       .then((data) => {
-        console.log(data.data)
         this.setState({ cityList: data.data })
       })
       .catch((err) => {throw err})

@@ -13,7 +13,7 @@ class Search extends React.Component {
   }
 
   componentDidMount () {
-    // 获取路由中的参数
+    //
     const params = this.props.match.params
     const category = params.category
     const keyWord = params.keyWord

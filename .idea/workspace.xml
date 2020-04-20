@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0997a361-183c-4842-abec-b8c256b91880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mockServer/ModelExport.sql" afterDir="false" />
+    <list default="true" id="0997a361-183c-4842-abec-b8c256b91880" name="Default Changelist" comment="a bit code optimisation">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeHeader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Swiper/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Swiper/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/city/CityList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/city/CityList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/city/CityList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/city/CityList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/city/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/city/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/city/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/city/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/detail/DetailComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/detail/DetailComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/detail/DetailInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/detail/DetailInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/detail/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/detail/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/Advertise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/CategoryList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/Commend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/Commend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/store/actionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/store/actionCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/store/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/store/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/LoginPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/LoginPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/login/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/login/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/search/SearchList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/search/SearchList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/search/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mockServer/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mockServer/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/zhenweiliang/localservices.git" />
+      </set>
+    </option>
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -110,7 +147,9 @@
       <workItem from="1587089331312" duration="2395000" />
       <workItem from="1587110827721" duration="23509000" />
       <workItem from="1587274538216" duration="2104000" />
-      <workItem from="1587278011139" duration="385000" />
+      <workItem from="1587278011139" duration="1893000" />
+      <workItem from="1587306943201" duration="599000" />
+      <workItem from="1587354527305" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="Finished container:city,detail,home,login,search">
       <created>1587277400551</created>
@@ -119,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587277400551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readMe update">
+      <created>1587278644095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587278644095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,17 +186,27 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished container:city,detail,home,login,search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished container:city,detail,home,login,search" />
+    <MESSAGE value="readMe update" />
+    <MESSAGE value="a bit code optimisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="a bit code optimisation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586590205213">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="281" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.720@0.0.1366.720" timestamp="1586590205213" />
-    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1587277397708">
+    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1587361878224">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1587277397708" />
+    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1587361878224" />
+    <state x="482" y="195" width="570" height="520" key="DBNavigator.ConnectionAuthenticationDialog" timestamp="1587356315282">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="482" y="195" width="570" height="520" key="DBNavigator.ConnectionAuthenticationDialog/0.0.1366.720@0.0.1366.720" timestamp="1587356315282" />
+    <state x="206" y="0" key="DBNavigator.ProjectSettingsDialog" timestamp="1587356280602">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="206" y="0" key="DBNavigator.ProjectSettingsDialog/0.0.1366.720@0.0.1366.720" timestamp="1587356280602" />
     <state x="355" y="0" key="FileChooserDialogImpl" timestamp="1587181816931">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -163,14 +219,14 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1586936968839" />
-    <state width="746" height="596" key="SwitcherDM" timestamp="1587220050741">
+    <state width="746" height="596" key="SwitcherDM" timestamp="1587358497964">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="746" height="596" key="SwitcherDM/0.0.1366.720@0.0.1366.720" timestamp="1587220050741" />
-    <state x="74" y="0" key="Vcs.Push.Dialog.v2" timestamp="1587277421032">
+    <state width="746" height="596" key="SwitcherDM/0.0.1366.720@0.0.1366.720" timestamp="1587358497964" />
+    <state x="74" y="0" key="Vcs.Push.Dialog.v2" timestamp="1587278681750">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="74" y="0" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1587277421032" />
+    <state x="74" y="0" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1587278681750" />
     <state x="388" y="235" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587181913976">
       <screen x="0" y="0" width="1366" height="720" />
     </state>

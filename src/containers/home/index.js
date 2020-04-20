@@ -1,60 +1,55 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import Style from './index.module.scss'
-import * as C from './store/constant'
 import HomeHeader from '../../components/HomeHeader'
 import Swiper from '../../components/Swiper'
 import * as AC from './store/actionCreator'
-import Advertise from './Advertise'
+import CategoryList from './CategoryList'
 import Commend from './Commend'
 
 class Home extends React.Component {
 
   componentDidMount () {
     this.props.getSwiperData()
-    this.props.getAdsData()
+    this.props.getCategoriesData()
     this.props.getCommendData()
   }
 
   render () {
-    const { swipeImages,ads,commendData,currentCity } = this.props
+    const { swipeImages, categories, commendData, currentCity } = this.props
     const imgLink = swipeImages.map((item) => { return item.imgLink })
     return (
-      <div>
-        <HomeHeader
-          cityName={currentCity} enterHandle={this.enterHandle}
-        />
-        <Swiper swipeImages={swipeImages}  />
-        <Advertise ads={ads} />
-
+      <div className={Style.wrapper}>
+        <HomeHeader cityName={currentCity} enterHandle={this.enterHandle}/>
+        <Swiper swipeImages={swipeImages}/>
+        <CategoryList categories={categories}/>
         <Commend commendData={commendData}/>
-
       </div>
     )
 
   }
 
   enterHandle = (value) => {
-    const history = this.props.history;
+    const history = this.props.history
     history.push(`/search/all/${value}`)
   }
 }
 
 const mapToState = (state) => ({
   swipeImages: state.home.swipeImages,
-  ads: state.home.ads,
+  categories: state.home.categories,
   commendData: state.home.commendData,
   currentCity: state.city.currentCity,
 })
 
 const mapToDispatch = (dispatch) => ({
-  getSwiperData(){
+  getSwiperData () {
     dispatch(AC.getSwiperData())
   },
-  getAdsData(){
-    dispatch(AC.getAdsData())
+  getCategoriesData () {
+    dispatch(AC.getCategoriesData())
   },
-  getCommendData(){
+  getCommendData () {
     dispatch(AC.getCommendData())
   },
 })

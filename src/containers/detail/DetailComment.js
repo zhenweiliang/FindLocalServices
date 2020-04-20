@@ -14,12 +14,11 @@ export default class DetailComment extends React.Component {
   }
 
   componentDidMount = () => {
-    Axios.post('/comment/',{id:this.props.id})
+    Axios.post('/comment/', { id: this.props.id })
       .then((data) => {
         this.setState({ data: data.data })
       })
       .catch((err) => {throw err })
-
   }
 
   render () {

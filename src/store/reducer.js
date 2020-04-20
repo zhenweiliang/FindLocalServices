@@ -5,8 +5,8 @@ import loginReducer from '../containers/login/store/reducer'
 
 const reducer = combineReducers({
   home: homeReducer,
-  city:cityReducer,
-  login:loginReducer
+  city: cityReducer,
+  login: loginReducer,
 
 })
 
